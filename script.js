@@ -40,3 +40,7 @@ function f7(command) {
 function f8(command) {
     document.execCommand(command, false, null);
 }
+
+function executeCommand(command) {
+    document.execCommand(command, false, null);
+  }
