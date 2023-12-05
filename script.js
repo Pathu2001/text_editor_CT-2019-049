@@ -7,3 +7,7 @@ function f1(command) {
 function f3(command) {
     document.execCommand(command, false, null);
 }
+
+function f2(command) {
+    document.execCommand(command, false, null);
+}
