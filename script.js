@@ -28,3 +28,15 @@ document.addEventListener('DOMContentLoaded', function () {
         colorLabel.style.color = selectedColor;
     });
 });
+
+function f6(command) {
+    document.execCommand(command, false, null);
+}
+
+function f7(command) {
+    document.execCommand(command, false, null);
+}
+
+function f8(command) {
+    document.execCommand(command, false, null);
+}
